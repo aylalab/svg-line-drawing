@@ -1,4 +1,4 @@
-@keyframes rainbow {
+@keyframes offset {
 
   to {
     stroke-dashoffset: 0;
@@ -18,43 +18,53 @@ h1 {
 }
 
 #rainbow-violet {
-  animation: rainbow 1s linear forwards;
+  animation: offset 1s linear forwards;
   stroke-dasharray: 1917.692px;
   stroke-dashoffset: 1917.692px;
 }
 
 #rainbow-indigo {
-  animation: rainbow 1s linear forwards;
+  animation: offset 1s linear forwards;
   stroke-dasharray: 1812.502px;
   stroke-dashoffset: 1812.502px;
 }
 
 #rainbow-blue {
-  animation: rainbow 1s linear forwards;
+  animation: offset 1s linear forwards;
   stroke-dasharray: 1705.479px;
   stroke-dashoffset: 1705.479px;
 }
 
 #rainbow-green {
-  animation: rainbow 1s linear forwards;
+  animation: offset 1s linear forwards;
   stroke-dasharray: 1596.043px;
   stroke-dashoffset: 1596.043px;
 }
 
 #rainbow-yellow {
-  animation: rainbow 1s linear forwards;
+  animation: offset 1s linear forwards;
   stroke-dasharray: 1483.352px;
   stroke-dashoffset: 1483.352px;
 }
 
 #rainbow-orange {
-  animation: rainbow 1s linear forwards;
+  animation: offset 1s linear forwards;
   stroke-dasharray: 1366.26px;
   stroke-dashoffset: 1366.26px;
 }
 
 #rainbow-red {
-  animation: rainbow 1s linear forwards;
+  animation: offset 1s 2s linear forwards;
   stroke-dasharray: 1243.044px;
   stroke-dashoffset: 1243.044px;
+}
+
+#narwhal-body {
+  animation: offset 1s linear forwards;
+  stroke-dasharray: 1908.791px;
+  stroke-dashoffset: 1908.791px;
+}
+
+#narwhal-eye {
+  opacity: .5;
 }
