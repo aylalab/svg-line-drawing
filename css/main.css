@@ -1,3 +1,24 @@
+@keyframes rainbow {
+
+  to {
+    stroke-dashoffset: 0;
+  }
+
+}
+
 html {
-  font-family: "Unica one", sans-serif;
+  font-family: "Unica One", sans-serif;
+}
+
+h1 {
+  color: #fff;
+  z-index: 10;
+  left: 30px;
+  top: 100px;
+}
+
+#rainbow-violet, #rainbow-indigo, #rainbow-blue, #rainbow-green, #rainbow-yellow, #rainbow-orange, #rainbow-red {
+  animation: rainbow 1s linear forwards;
+  stroke-dasharray: 11124.371px;
+  stroke-dashoffset: 11124.371px;
 }
