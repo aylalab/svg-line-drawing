@@ -17,8 +17,44 @@ h1 {
   top: 100px;
 }
 
-#rainbow-violet, #rainbow-indigo, #rainbow-blue, #rainbow-green, #rainbow-yellow, #rainbow-orange, #rainbow-red {
+#rainbow-violet {
   animation: rainbow 1s linear forwards;
-  stroke-dasharray: 11124.371px;
-  stroke-dashoffset: 11124.371px;
+  stroke-dasharray: 1917.692px;
+  stroke-dashoffset: 1917.692px;
+}
+
+#rainbow-indigo {
+  animation: rainbow 1s linear forwards;
+  stroke-dasharray: 1812.502px;
+  stroke-dashoffset: 1812.502px;
+}
+
+#rainbow-blue {
+  animation: rainbow 1s linear forwards;
+  stroke-dasharray: 1705.479px;
+  stroke-dashoffset: 1705.479px;
+}
+
+#rainbow-green {
+  animation: rainbow 1s linear forwards;
+  stroke-dasharray: 1596.043px;
+  stroke-dashoffset: 1596.043px;
+}
+
+#rainbow-yellow {
+  animation: rainbow 1s linear forwards;
+  stroke-dasharray: 1483.352px;
+  stroke-dashoffset: 1483.352px;
+}
+
+#rainbow-orange {
+  animation: rainbow 1s linear forwards;
+  stroke-dasharray: 1366.26px;
+  stroke-dashoffset: 1366.26px;
+}
+
+#rainbow-red {
+  animation: rainbow 1s linear forwards;
+  stroke-dasharray: 1243.044px;
+  stroke-dashoffset: 1243.044px;
 }
